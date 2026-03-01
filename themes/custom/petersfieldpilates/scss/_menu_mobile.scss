@@ -1,0 +1,104 @@
+#block-petersfieldpilates-responsivemenumobileicon {
+
+  .responsive-menu-toggle-icon::before,
+  .responsive-menu-toggle-icon::after,
+  .responsive-menu-toggle-icon span.icon {
+    background-color: $green;
+    height: 2px;
+    left: 7px;
+  }
+
+  .responsive-menu-toggle-icon::before   {top: 10px;}
+  .responsive-menu-toggle-icon span.icon {top: 16px;}
+  .responsive-menu-toggle-icon::after    {top: 22px;}
+
+  a.responsive-menu-toggle-icon {
+    display: flex;
+    height: 36px;
+    width: 36px;
+    border: 1px solid $green;
+    border-radius: 20px;
+    background-color: $white;
+
+    span.label {
+      display: none;
+    }
+
+    &:hover,
+    &:focus {
+      background-color: $green;
+
+      &::before,
+      &::after,
+      & span.icon {
+        background-color: $white;
+      }      
+    }
+  }
+}
+
+.mm-wrapper_opening #block-petersfieldpilates-responsivemenumobileicon {
+  .responsive-menu-toggle-icon::before   {top: 16px;}
+  .responsive-menu-toggle-icon::after    {top: 16px;}  
+}
+
+
+.mm-menu_theme-white {
+  background-color: $white;
+  --mm-color-background: $white;
+  color: $black;
+
+  .mm-panels {
+
+    .mm-navbar {
+      border: inherit;
+    }
+
+    /*
+    .mm-navbar:before {
+      content: '';
+      background: url("/themes/custom/petersfieldpilates/logo.png");
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: contain;
+      display: block;
+      position: relative;
+      left: 20%;
+      width: 60%;
+      height: 100px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+    } 
+    */
+
+    .mm-navbar a.mm-navbar__title {
+      display: none;
+    }
+  }
+
+  ul.mm-listview {
+    li.mm-listitem {
+      color: $black;
+      --mm-color-text: $black;
+      text-align: left;
+
+      &:hover {
+        color: $green;
+        --mm-color-text: $green;        
+      }
+    }
+    li.mm-listitem::after {
+      display: none;
+    }
+    .mm-listitem__text {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+    .mm-listitem_selected > .mm-listitem__text {
+      background: $green;
+      color: $white;
+    }
+  }
+}
+
+

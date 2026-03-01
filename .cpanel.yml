@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/ultralum/petersfieldpilates.astraluminal.co.uk
+    - /bin/cp -r * $DEPLOYPATH

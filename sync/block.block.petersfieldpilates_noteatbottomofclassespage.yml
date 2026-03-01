@@ -1,0 +1,28 @@
+uuid: 90fe88f0-1f50-4913-b409-095ab4251e6b
+langcode: en-gb
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:0f077d0c-c414-46a6-820d-5f7a050fac13'
+  module:
+    - block_content
+    - system
+  theme:
+    - petersfieldpilates
+id: petersfieldpilates_noteatbottomofclassespage
+theme: petersfieldpilates
+region: content
+weight: 0
+provider: null
+plugin: 'block_content:0f077d0c-c414-46a6-820d-5f7a050fac13'
+settings:
+  id: 'block_content:0f077d0c-c414-46a6-820d-5f7a050fac13'
+  label: 'Please note'
+  label_display: '0'
+  provider: block_content
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /classes

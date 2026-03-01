@@ -1,0 +1,15 @@
+_core:
+  default_config_hash: VDJxTZtQR21qB4lvOq8zszJZLvLKrSPQpdn2E3T71Ww
+langcode: en-gb
+uuid: 826b076c-be7f-4ca4-a5f5-64a26e59a55b
+name: 'Petersfield Pilates'
+mail: noreply@petersfieldpilates.com
+slogan: 'Transform how your body moves, feels and looks'
+page:
+  403: ''
+  404: ''
+  front: /node/38
+admin_compact_mode: false
+weight_select_max: 100
+default_langcode: en-gb
+mail_notification: ''

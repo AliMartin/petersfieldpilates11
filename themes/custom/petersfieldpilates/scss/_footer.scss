@@ -1,0 +1,113 @@
+footer.footer {
+  background-color: $green;
+  color: $white;
+  font-size: smaller;
+  margin-top: 60px;
+  padding: 30px 0 60px 0;
+
+  h2 {
+    margin: 0 0 10px 0;
+    padding: 0;
+    color: $white;
+    font-size: x-large;
+  }
+
+  .region-footer-upper {
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    padding-bottom: 60px;
+
+    > div {
+      width: 50%;
+    }
+
+    ul {
+      margin-bottom: 0;
+      font-size: small;
+    }
+  }
+
+  a {
+    color: $white;
+    text-decoration: none;
+
+    &:hover,
+    &:focus,
+    &:active {
+      color: $white;
+      text-decoration: underline;
+    }
+  }
+}
+
+@media screen and (max-width: 991px) {
+  footer.footer {
+    .region-footer-upper {
+      flex-direction: column;
+      > div {
+        width: inherit;
+      }
+    }
+  }
+}
+
+.region-footer-lower {
+  display: flex;
+  flex-direction: row;
+
+  #block-petersfieldpilates-copyright {
+    width: 70%;
+  }
+
+  #block-petersfieldpilates-professionallogos {
+    width: 30%;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .field--name-body {
+    margin-bottom: 0 !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .region-footer-lower {
+    flex-direction: column;
+    
+    #block-petersfieldpilates-copyright,
+    #block-petersfieldpilates-professionallogos {
+      width: inherit;
+      max-width: 400px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    #block-petersfieldpilates-copyright {
+      text-align: center;
+    }
+
+    #block-petersfieldpilates-professionallogos {
+      justify-content: center;
+    }
+  }
+}
+
+
+
+#block-petersfieldpilates-copyright {
+  margin-bottom: 30px;
+  .address {
+    margin-bottom: 0.5rem;
+  }
+  i {
+    margin-right: 0.25rem;
+  }
+}
+
+#block-petersfieldpilates-professionallogos {
+  img {
+    height: 60px;
+    width: auto;
+  }
+}

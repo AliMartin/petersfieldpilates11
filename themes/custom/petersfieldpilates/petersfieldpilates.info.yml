@@ -1,0 +1,28 @@
+name: 'Petersfield Pilates'
+type: theme
+description: 'Petersfield Pilates subtheme based on Bootstrap 5 theme.'
+core_version_requirement: '^10 || ^11'
+'base theme': bootstrap5
+libraries:
+  - petersfieldpilates/global-styling
+ckeditor_stylesheets:
+  - css/style.css
+ckeditor5-stylesheets:
+  - css/ck5style.css
+regions:
+  header_left: 'Header left'
+  header_right: 'Header right'
+  nav_main: 'Main navigation region'
+  breadcrumb: Breadcrumbs
+  banner: Banner
+  content_header: 'Content header'
+  content_top: 'Top content'
+  content: 'Main content'
+  sidebar_first: 'Sidebar first'
+  sidebar_second: 'Sidebar second'
+  logo_strip: 'Logo strip'
+  footer_upper: 'Upper footer'
+  footer_lower: 'Lower footer'
+  mega_menu: 'Blocks which are displayed in the mega menu'
+libraries-override:
+  bootstrap5/global-styling: false

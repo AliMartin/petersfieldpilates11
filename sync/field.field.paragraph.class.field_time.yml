@@ -1,0 +1,19 @@
+uuid: 7efcfdc6-a1f0-4e1e-9b93-395239540996
+langcode: en-gb
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_time
+    - paragraphs.paragraphs_type.class
+id: paragraph.class.field_time
+field_name: field_time
+entity_type: paragraph
+bundle: class
+label: Time
+description: 'This is just a plain text field rather than a more complex date range field given the nature of the website, so just enter <em>9:10am - 10:10am</em> and rearrange the order by using paragraphs.'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

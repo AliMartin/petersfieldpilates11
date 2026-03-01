@@ -1,0 +1,105 @@
+uuid: 1feaf7fb-3418-4136-b9af-26f12ef2cf7b
+langcode: en-gb
+status: true
+dependencies:
+  config:
+    - media.type.image
+    - node.type.article
+    - node.type.class
+    - node.type.front
+    - node.type.page
+    - node.type.testimonial
+    - node.type.webform
+    - taxonomy.vocabulary.class_type
+    - taxonomy.vocabulary.tags
+  module:
+    - contextual
+    - eu_cookie_compliance
+    - file
+    - media
+    - media_gallery
+    - node
+    - path
+    - system
+    - taxonomy
+    - toolbar
+    - webform
+    - webform_node
+_core:
+  default_config_hash: e_wG1u7SrGaJbY2-Szgbgl-c8T3kdirU3uTNq2c_QJQ
+id: content_editor
+label: 'Content editor'
+weight: 2
+is_admin: false
+permissions:
+  - 'access administration pages'
+  - 'access content overview'
+  - 'access contextual links'
+  - 'access files overview'
+  - 'access media gallery overview'
+  - 'access media overview'
+  - 'access toolbar'
+  - 'add media gallery entities'
+  - 'administer url aliases'
+  - 'create article content'
+  - 'create image media'
+  - 'create media'
+  - 'create page content'
+  - 'create terms in class_type'
+  - 'create terms in tags'
+  - 'create testimonial content'
+  - 'create url aliases'
+  - 'delete any article content'
+  - 'delete any image media'
+  - 'delete any image media revisions'
+  - 'delete any media'
+  - 'delete any media gallery entities'
+  - 'delete any testimonial content'
+  - 'delete article revisions'
+  - 'delete media'
+  - 'delete own article content'
+  - 'delete own files'
+  - 'delete own image media'
+  - 'delete own media gallery entities'
+  - 'delete own page content'
+  - 'delete page revisions'
+  - 'delete term revisions in class_type'
+  - 'delete term revisions in tags'
+  - 'delete terms in class_type'
+  - 'delete terms in tags'
+  - 'display eu cookie compliance popup'
+  - 'edit any article content'
+  - 'edit any class content'
+  - 'edit any front content'
+  - 'edit any image media'
+  - 'edit any media gallery entities'
+  - 'edit any page content'
+  - 'edit any testimonial content'
+  - 'edit any webform content'
+  - 'edit own article content'
+  - 'edit own class content'
+  - 'edit own front content'
+  - 'edit own image media'
+  - 'edit own media gallery entities'
+  - 'edit own page content'
+  - 'edit own testimonial content'
+  - 'edit own webform content'
+  - 'edit terms in class_type'
+  - 'edit terms in tags'
+  - 'revert all revisions'
+  - 'revert any image media revisions'
+  - 'update any media'
+  - 'update media'
+  - 'view all media revisions'
+  - 'view all revisions'
+  - 'view any image media revisions'
+  - 'view any webform submission'
+  - 'view own unpublished content'
+  - 'view own unpublished media'
+  - 'view own webform submission'
+  - 'view term revisions in class_type'
+  - 'view term revisions in tags'
+  - 'view the administration theme'
+  - 'view unpublished media gallery entities'
+  - 'view webform submissions any node'
+  - 'view webform submissions own node'

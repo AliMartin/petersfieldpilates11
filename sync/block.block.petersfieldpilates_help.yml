@@ -1,0 +1,22 @@
+uuid: 359f002b-3fd9-4d8e-a480-eeb83c49728e
+langcode: en-gb
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - petersfieldpilates
+_core:
+  default_config_hash: s7OH3PNQF4IGn9BzwF68-ZTaPzy76eXuHjSoYuzb1ng
+id: petersfieldpilates_help
+theme: petersfieldpilates
+region: content
+weight: -3
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }

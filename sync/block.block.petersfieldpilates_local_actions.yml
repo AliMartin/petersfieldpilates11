@@ -1,0 +1,20 @@
+uuid: e9733168-f772-452f-8f5e-d0485d9b6596
+langcode: en-gb
+status: true
+dependencies:
+  theme:
+    - petersfieldpilates
+_core:
+  default_config_hash: RwKergxmF6A5KyESwQTBExpAReweouzRFlxYF3ZsLUg
+id: petersfieldpilates_local_actions
+theme: petersfieldpilates
+region: content
+weight: -2
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }

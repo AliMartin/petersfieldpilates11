@@ -1,0 +1,17 @@
+uuid: 2c02aad7-daec-4077-b98b-38e62e68f7b9
+langcode: en-gb
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: _PaV_EPklouEzSh09YE91VNdPETl79zsnakRfKDgHrU
+name: media_gallery_image
+label: 'Media Gallery Image (300x180)'
+effects:
+  8e172310-8ff8-413b-b8ae-3226ee51c865:
+    uuid: 8e172310-8ff8-413b-b8ae-3226ee51c865
+    id: image_scale_and_crop
+    weight: 0
+    data:
+      width: 300
+      height: 180
+      anchor: center-center

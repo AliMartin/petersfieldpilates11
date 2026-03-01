@@ -1,0 +1,23 @@
+uuid: cfbe6f65-6863-4ec7-aa3f-0d17f5d304f0
+langcode: en-gb
+status: false
+dependencies:
+  content:
+    - 'block_content:basic:604dc5f2-6c91-4689-b1c5-fb379070dc97'
+  module:
+    - block_content
+  theme:
+    - petersfieldpilates
+id: petersfieldpilates_whoispilatesfor
+theme: petersfieldpilates
+region: footer_upper
+weight: -5
+provider: null
+plugin: 'block_content:604dc5f2-6c91-4689-b1c5-fb379070dc97'
+settings:
+  id: 'block_content:604dc5f2-6c91-4689-b1c5-fb379070dc97'
+  label: 'Who is Pilates for?'
+  label_display: visible
+  provider: block_content
+  view_mode: full
+visibility: {  }

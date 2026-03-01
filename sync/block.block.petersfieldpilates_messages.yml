@@ -1,0 +1,22 @@
+uuid: 869413f8-46ec-4798-80b7-364610d017ab
+langcode: en-gb
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - petersfieldpilates
+_core:
+  default_config_hash: FvLQ-ZzFEH5G12rQs8q3Mv2JAGvZ-k1hDUkDHDqihGE
+id: petersfieldpilates_messages
+theme: petersfieldpilates
+region: content
+weight: -7
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: Messages
+  label_display: '0'
+  provider: system
+visibility: {  }

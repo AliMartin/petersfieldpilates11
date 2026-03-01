@@ -1,0 +1,17 @@
+uuid: 0956e4d2-a0c4-4af9-a7c5-f11a9ec3e8da
+langcode: en-gb
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Front
+type: front
+description: 'Special content type for the <em>home page</em>.'
+help: null
+new_revision: true
+preview_mode: 0
+display_submitted: true

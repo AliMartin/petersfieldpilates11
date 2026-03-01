@@ -1,0 +1,21 @@
+.path-media-gallery {
+  main {
+    max-width: 1500px;
+    margin: 0 auto;
+  }
+  #block-petersfieldpilates-page-title {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  #block-petersfieldpilates-content {
+    .field--name-title {
+      display: none;
+    }
+    .field--name-images {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 10px;
+    }
+  }
+}

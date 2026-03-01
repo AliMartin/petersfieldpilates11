@@ -1,0 +1,23 @@
+uuid: 1b4982f5-62f1-4bb1-b201-962d369ff514
+langcode: en-gb
+status: false
+dependencies:
+  content:
+    - 'block_content:basic:0a511809-cca4-46fe-b7a4-cd30712e6b59'
+  module:
+    - block_content
+  theme:
+    - petersfieldpilates
+id: petersfieldpilates_benefitsofpilates
+theme: petersfieldpilates
+region: footer_upper
+weight: -6
+provider: null
+plugin: 'block_content:0a511809-cca4-46fe-b7a4-cd30712e6b59'
+settings:
+  id: 'block_content:0a511809-cca4-46fe-b7a4-cd30712e6b59'
+  label: 'Benefits of Pilates'
+  label_display: visible
+  provider: block_content
+  view_mode: full
+visibility: {  }

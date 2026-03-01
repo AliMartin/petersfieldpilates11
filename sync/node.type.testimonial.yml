@@ -1,0 +1,17 @@
+uuid: 7fca2de4-8299-4267-b65c-3e1f9ca2fe5f
+langcode: en-gb
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Testimonial
+type: testimonial
+description: 'Add a <em>testimonial</em> to the website.'
+help: null
+new_revision: false
+preview_mode: 0
+display_submitted: true

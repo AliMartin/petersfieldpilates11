@@ -1,0 +1,31 @@
+uuid: 8a0eaf7f-e20b-4da9-a4a6-4fe4da6f3cba
+langcode: en-gb
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_monday_classes
+    - node.type.class
+    - paragraphs.paragraphs_type.class
+  module:
+    - entity_reference_revisions
+id: node.class.field_monday_classes
+field_name: field_monday_classes
+entity_type: node
+bundle: class
+label: Monday
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      class: class
+    negate: 0
+    target_bundles_drag_drop:
+      class:
+        weight: 2
+        enabled: true
+field_type: entity_reference_revisions

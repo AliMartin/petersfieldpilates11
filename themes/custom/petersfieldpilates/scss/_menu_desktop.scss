@@ -1,0 +1,85 @@
+#block-petersfieldpilates-mainnavigation {
+
+  margin-bottom: 10px;
+
+  /* TBM MENU MENU STRUCTURE */
+
+  // Primary menu items
+  .tbm {
+    background-color: inherit;
+    margin: 0 auto 0 auto;
+  }
+
+  .tbm-nav {
+    justify-content: center;
+
+    .tbm-item.level-1 {
+      position: relative; /* This overrides the submenu positioning in TB Mega Menu configuration */
+      border-right: inherit;
+      margin: 0 18px;
+      font-weight: 500;
+    }
+
+    .tbm-link.level-1,
+    .tbm-link.level-1:hover {
+      color: $black;
+      font-weight: $font-weight-bold;
+      font-size: 18px;
+      text-decoration: inherit;
+      background-color: inherit;
+      padding: 5px 0 4px 0;
+      border-bottom: 3px solid rgba(0,0,0,0);
+      outline: none;
+    }
+
+    .active .tbm-link.level-1,
+    .tbm-link.level-1:hover {
+      border-bottom: 3px solid $green;
+    }
+
+    .tbm-submenu-toggle {
+      display: flex;
+      justify-content: right;
+      color: $green;
+      background-color: inherit;
+      padding: 0;
+      width: 27px;
+      position: relative;
+      top: 2px;
+      outline: none;
+    }
+
+    .tbm-submenu-toggle:before {
+      left: inherit;
+    }
+  }
+
+  // Submenu
+  .tbm-item.level-1 > .tbm-submenu {
+    left: -20px;
+    z-index: 1;
+    padding: 10px 20px;
+    border: none;
+    background-color: $white;
+    isolation: isolate;
+    box-shadow: inherit;
+
+    .tbm-link-container {
+      display: inline-flex;
+    }
+
+    .tbm-link {
+      color: $black;
+      font-size: 18px;
+      text-decoration: inherit;
+      margin: 5px 0 5px 0;
+      padding: 3px 0 2px 0;
+      border-bottom: 3px solid rgba(0,0,0,0);
+
+      &:hover {
+        border-bottom: 3px solid green;
+      }
+    }
+  }
+
+}

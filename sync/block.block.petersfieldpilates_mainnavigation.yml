@@ -1,0 +1,20 @@
+uuid: 56ebaf55-1d30-43cd-8526-ad58358963ba
+langcode: en-gb
+status: true
+dependencies:
+  module:
+    - tb_megamenu
+  theme:
+    - petersfieldpilates
+id: petersfieldpilates_mainnavigation
+theme: petersfieldpilates
+region: nav_main
+weight: 0
+provider: null
+plugin: 'tb_megamenu_menu_block:main'
+settings:
+  id: 'tb_megamenu_menu_block:main'
+  label: 'Main navigation'
+  label_display: '0'
+  provider: tb_megamenu
+visibility: {  }

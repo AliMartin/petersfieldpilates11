@@ -1,0 +1,23 @@
+uuid: bbfb86b7-730c-4666-8c49-53c076db86f9
+langcode: en-gb
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:194e3a1a-6006-4488-906d-0257a8c27e7d'
+  module:
+    - block_content
+  theme:
+    - petersfieldpilates
+id: petersfieldpilates_copyright
+theme: petersfieldpilates
+region: footer_lower
+weight: -5
+provider: null
+plugin: 'block_content:194e3a1a-6006-4488-906d-0257a8c27e7d'
+settings:
+  id: 'block_content:194e3a1a-6006-4488-906d-0257a8c27e7d'
+  label: Copyright
+  label_display: '0'
+  provider: block_content
+  view_mode: full
+visibility: {  }

@@ -1,0 +1,10 @@
+uuid: 304771af-974c-4dce-94b1-28c2ad073d96
+langcode: en-gb
+status: true
+dependencies: {  }
+id: class
+label: Class
+icon_uuid: null
+icon_default: null
+description: 'Add an individual <em>class</em> to the website so that it can be displayed on the <em>classes</em> page.'
+behavior_plugins: {  }

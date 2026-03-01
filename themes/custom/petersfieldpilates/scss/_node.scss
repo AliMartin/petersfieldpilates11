@@ -1,0 +1,270 @@
+.page-node-type-page,
+.path-testimonials #main-content, 
+main .container {
+  max-width: 850px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#main-content {
+  margin-bottom: 120px;
+}
+
+.region-sidebar-first,
+.region-sidebar-second,
+.region-footer,
+.region-content {
+  padding: 0 1rem;
+}
+
+ul.nav-tabs {
+  justify-content: center;
+}
+
+
+
+.page-node-type-article,
+.page-node-type-webform,
+.page-node-type-class {
+  main[role=main] {
+    max-width: 850px;
+    margin: 0 auto;
+
+    .field--name-field-media-image {
+      margin-bottom: 30px;
+    }
+
+    h1 {
+      text-align: center;
+    }
+  }
+}
+
+
+#group-content {
+  max-width: 850px;
+  margin: 0 auto;
+}
+
+
+// Views pages h1
+.path-testimonials {
+  #block-petersfieldpilates-page-title {
+    text-align: center;
+  }
+}
+
+// Hide core h1 markup and manipulate alternative
+.path-frontpage,
+.page-node-type-article,
+.page-node-type-testimonial,
+.page-node-type-webform,
+.page-node-type-class {
+  #block-petersfieldpilates-page-title {
+    display: none;
+  }
+}
+
+
+h2,
+h3,
+h4 {
+  padding: 30px 0 10px 0;
+}
+
+
+// Hero images
+.field--name-field-media-image img {
+  width: 100%;
+  height: auto;
+  border-radius: $border-radius;
+}
+
+
+// Centre align body text
+.page-node-type-class,
+.page-node-type-webform {
+  #group-content {
+    text-align: center;
+  }
+}
+
+
+// Blockquote
+blockquote {
+  background-color: $gray-100;
+  border-left: $blue solid 5px;
+  padding: 20px;
+  margin: 20px 0 20px 0;
+
+  p {
+    margin: 0;
+  }
+}
+
+
+// File icons
+.field--name-field-attachment {
+  margin-top: 60px;
+  text-align: center;
+}
+
+.field--name-field-attachments {
+  .field__item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+
+    span {
+      display: block;
+    }
+  }
+}
+
+.file:first-of-type {
+  min-height: 32px;
+  padding-left: 42px;
+}
+
+.file--general                {background-image: url(../icons/text-plain.png);}
+.file--application-pdf        {background-image: url(../icons/application-pdf.png);}
+.file--x-office-spreadsheet   {background-image: url(../icons/x-office-spreadsheet.png);}
+.file--x-office-document      {background-image: url(../icons/x-office-document.png);}
+.file--x-office-presentation  {background-image: url(../icons/x-office-presentation.png);}
+.file--text-x-script          {background-image: url(../icons/text-x-script.png);}
+.file--text-plain             {background-image: url(../icons/text-plain.png);}
+.file--video                  {background-image: url(../icons/video-x-generic.png);}
+.file--text                   {background-image: url(../icons/text-x-generic.png);}
+.file--image                  {background-image: url(../icons/image-x-generic.png);}
+
+
+// Classes
+.page-node-type-class {
+  .field--name-body {
+    margin-bottom: 90px;
+  }
+
+  .field--type-entity-reference-revisions {
+    text-align: center;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid $gray-200;
+  }
+
+  .field--type-entity-reference-revisions:last-of-type {
+    margin-bottom: 90px;
+    border-bottom: none;
+  }
+
+  .field--type-entity-reference-revisions > .field__label {
+    font-family: $headings-font-family;
+    font-weight: $headings-font-weight;
+    font-size: xx-large;
+    margin-bottom: 15px;
+  }
+
+  .field--type-entity-reference-revisions > .field__items > .field__item {
+    margin-bottom: 15px;
+  }
+
+  .field--name-field-time {
+    font-weight: $font-weight-bold;
+  }
+
+  .field--name-field-class-type {
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+
+    .field__item {
+      position: relative;
+      padding-left: 15px;
+      margin-left: 10px;
+    }
+
+    .field__item:first-child {
+      padding-left: inherit;
+      margin-left: inherit;
+    }
+
+    .field__item::before {
+      content: '•'; /* The bullet point */
+      position: absolute; /* Position it absolutely within the flex-item */
+      left: 0; /* Align it to the left of the flex-item */
+      top: 50%; /* Vertically center it */
+      transform: translateY(-50%); /* Vertically center it */
+    }
+
+    .field__item:first-child::before {
+      content: ''; /* Remove the bullet for the first item */
+    }
+  }
+}
+
+
+// Red panel tint for mat classes
+#block-petersfieldpilates-noteatbottomofclassespage {
+  max-width: 850px;
+  margin: auto;
+}
+
+.panel-tint {
+  background-color: rgba(229,119,78,0.5);
+  padding: 20px;
+  border-radius: $border-radius;
+  box-shadow: 0px 3px 0px 0px rgba(0,0,0,0.1);
+
+  h2 {
+    padding: 0;
+  }
+}
+
+
+// Testimonials
+.view-testimonials {
+  margin-top: 30px;
+  margin-bottom: 90px;
+
+  .views-row {
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid $gray-200;
+  }
+
+  .views-row:last-of-type {
+    margin-bottom: inherit;
+    padding-bottom: inherit;    
+    border-bottom: inherit;
+  }
+
+  .views-field-title {
+    font-family: $headings-font-family;
+    font-weight: $headings-font-weight;
+    font-size: xx-large;
+    margin-bottom: 0.5rem;
+  }
+}
+
+
+// Webforms
+.field--name-webform {
+  margin-top: 60px;
+  text-align: center;
+
+  .form-control {
+    text-align: center;
+    max-width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+  }
+}
+
+
+// System messages
+.messages__wrapper {
+  max-width: 1500px;
+  margin: 0 auto;
+}

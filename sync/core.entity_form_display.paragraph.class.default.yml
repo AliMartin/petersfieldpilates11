@@ -1,0 +1,38 @@
+uuid: 2746675f-251c-4b88-924e-98bd4adae5cc
+langcode: en-gb
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.class.field_class_type
+    - field.field.paragraph.class.field_time
+    - paragraphs.paragraphs_type.class
+  module:
+    - field_layout
+    - layout_discovery
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings:
+      label: ''
+id: paragraph.class.default
+targetEntityType: paragraph
+bundle: class
+mode: default
+content:
+  field_class_type:
+    type: options_buttons
+    weight: 1
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_time:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true
