@@ -8,8 +8,8 @@ $settings['config_sync_directory'] = DRUPAL_ROOT . '/sync';
 $settings['trusted_host_patterns'] = [
   '^petersfieldpilates\.com$',
   '^.+\.petersfieldpilates\.com$',
-  '^petersfieldpilates\.astraluminal\.co\.uk$',
-  '^.+\.petersfieldpilates\.astraluminal\.co\.uk$',
+  '^petersfieldpilates\.hyperluminal\.co\.uk$',
+  '^.+\.petersfieldpilates\.hyperluminal\.co\.uk$',
   '^petersfieldpilates11\.ddev\.site$',
   '^.+\.petersfieldpilates11\.ddev\.site$',
 ];
