@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/hyperlum/petersfieldpilates.hyperluminal.co.uk
+    - export DEPLOYPATH=/home/petersf2/public_html
     - /bin/cp -r * $DEPLOYPATH
