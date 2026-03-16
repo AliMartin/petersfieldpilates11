@@ -31,7 +31,7 @@ content:
     label: hidden
     settings: {  }
     third_party_settings: {  }
-    weight: 2
+    weight: 3
     region: content
   field_attachment:
     type: file_default
@@ -39,7 +39,7 @@ content:
     settings:
       use_description_as_link_text: true
     third_party_settings: {  }
-    weight: 3
+    weight: 2
     region: content
   field_image:
     type: entity_reference_entity_view

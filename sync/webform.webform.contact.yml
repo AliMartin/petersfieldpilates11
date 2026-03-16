@@ -326,7 +326,7 @@ handlers:
       sender_mail: ''
       sender_name: ''
       subject: '* Petersfield Pilates website enquiry *'
-      body: '<p>[webform_submission:values:message:value]</p>'
+      body: _default
       excluded_elements: {  }
       ignore_access: false
       exclude_empty: true
