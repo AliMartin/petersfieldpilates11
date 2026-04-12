@@ -312,7 +312,7 @@ handlers:
     settings:
       states:
         - completed
-      to_mail: lea@petersfieldpilates.com
+      to_mail: 'lea@petersfieldpilates.com,leablumlein@hotmail.com,charlesblumlein@hotmail.com'
       to_options: {  }
       bcc_mail: info@alimartin.com
       bcc_options: {  }
